@@ -8443,7 +8443,7 @@ strong {
       position: relative;
       z-index: 0;
       color: #fff;
-      border: 1px solid rgba(255, 255, 255, 0.2);
+      /* border: 1px solid rgba(255, 255, 255, 0.2); */
       border-top: none;
       padding: 0 15px;
       display: block; }
@@ -8483,7 +8483,7 @@ strong {
     font-weight: 700;
     text-transform: uppercase;
     color: #9da1a5;
-    font-size: 10px;
+    /* font-size: 10px; */
     letter-spacing: 1px; }
   .slider-text .breadcrumbs {
     font-size: 16px;
