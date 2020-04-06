@@ -1,8 +1,8 @@
 # Website for The Elite Network
 
-## Get the perfect influencers for your brand
+### Get the perfect influencers for your brand
 
-## Bridging the Gap between Influencers and Brands
+### Bridging the Gap between Influencers and Brands
 
 ### CAMPAIGN PLANNING AND EXECUTION
 Optimising the resources to deliver the right communication and generating value over time.
