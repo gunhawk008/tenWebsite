@@ -62,6 +62,7 @@ body {
   color: #212529;
   background-color: #fff; 
 }
+ 
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -857,6 +858,12 @@ pre {
     margin-left: 83.33333%; }
   .offset-sm-11 {
     margin-left: 91.66667%; } }
+
+@media all and (max-width:991px){
+  body{
+     overflow-x:hidden; 
+    }
+} 
 
 @media (min-width: 768px) {
   .col-md {
