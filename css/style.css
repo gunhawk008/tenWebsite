@@ -4890,6 +4890,11 @@ a.close.disabled {
   .modal-xl {
     max-width: 1140px; } }
 
+
+
+.Kaushan {
+  font-family: 'Kaushan Script';font-size: 1.7rem;
+}
 .tooltip {
   position: absolute;
   z-index: 1070;

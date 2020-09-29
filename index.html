@@ -9,7 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet'>
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -28,7 +29,10 @@
     
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+
+
   </head>
   <body>
 
@@ -78,7 +82,7 @@
 						<div class="text text-center">
 							<h1 class="logo" style="margin-bottom: 0px;margin-top: 20px;"><a href="index.html"><img src="images/logo.png"style="height:300px"><!-- </span>Snapshot<small>Photographer / San Francisco</small> --></a></h1>
 							<h1>The Elite Network</h1>		
-							<h2 class="mb-4">BRIDGING THE GAP BETWEEN <br>INFLUCENCERS & BRANDS</h2>
+							<h2 class="Kaushan">BRIDGING THE GAP BETWEEN <br>INFLUCENCERS & BRANDS</h2>
 									<!-- <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts.</p> -->
 									<p class="mt-5"><a href="imAnInfluencer.html" class="btn-custom" style="padding-left: 0px;padding-right: 0px;">I'm an Influencer <span class="ion-ios-arrow-round-forward"></span></a>
 									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="imaBrand.html" class="btn-custom"style="padding-left: 0px;padding-right: 0px;">I'm a Brand <span class="ion-ios-arrow-round-forward"></span></a></p>
@@ -624,21 +628,21 @@
 
         <div class="row block-9">
           <div class="col-md-6 ftco-animate">
-            <form action="#" class="contact-form p-4 p-md-5 py-md-5">
+            <form method="post" action="contact.php" class="contact-form p-4 p-md-5 py-md-5">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name">
+                <input type="text" name="name" class="form-control" placeholder="Your Name">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Email">
+                <input type="text" name="email" class="form-control" placeholder="Your Email">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject">
+                <input type="text" name="subject" class="form-control" placeholder="Subject">
               </div>
               <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
               </div>
               <div class="form-group">
-                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+                <input type="submit" name="submit" value="Send Message" class="btn btn-primary py-3 px-5">
               </div>
             </form>
           </div>
